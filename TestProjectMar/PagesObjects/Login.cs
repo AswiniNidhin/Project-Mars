@@ -10,7 +10,7 @@ namespace TestProjectMar.PagesObjects
 {
     class Login
     {
-        IWebDriver driver;
+        readonly IWebDriver driver;
         IWebElement SigInBtn => driver.FindElement(By.XPath("//*[@id='home']/div/div/div[1]/div/a"));
         IWebElement Email => driver.FindElement(By.XPath("//input[@name='email']"));
         IWebElement Password => driver.FindElement(By.XPath("//input[@name='password']"));
@@ -27,7 +27,7 @@ namespace TestProjectMar.PagesObjects
 
         }
 
-        public void EnterEmailPassword()
+        public void LoginEnterEmailPassword()
         {
             
             Thread.Sleep(1000);

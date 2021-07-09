@@ -1,6 +1,7 @@
 ﻿using NUnit.Framework;
 using System;
 using TechTalk.SpecFlow;
+using TechTalk.SpecFlow.Assist;
 using TestProjectMar.PagesObjects;
 
 namespace TestProjectMar.Steps
@@ -8,7 +9,7 @@ namespace TestProjectMar.Steps
     [Binding]
     public class CertificationSteps
     {
-        CertificationPage Certobj;
+        readonly CertificationPage Certobj;
 
         public object GenericHelper { get; private set; }
 
@@ -28,13 +29,17 @@ namespace TestProjectMar.Steps
 
         }
 
-        [Given(@"I add certification data")]
-        public void GivenIAddCertificationData()
+        [Then(@"I add certification detail data")]
+        public void ThenIAddCertificationDetailData(Table table)
         {
-            Certobj.Cert_Data();
-           // Assert.AreEqual();
-           
+            dynamic data = table.CreateDynamicInstance();
+            Certobj.Cert_Data((string)data.Certificate, (string)data.CertifiedFrom);
+            Certobj.Certifiedaddbutton();
         }
+
+
+       
+
 
     }
 }

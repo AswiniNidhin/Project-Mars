@@ -3,10 +3,11 @@
 
 
 	Scenario: Entering valid data to education tab
-	Given I have navigated to profile page
+	Given I have navigated to profile to page
 	And I click on the education tab 
-	When I enter the education data 
-	
+	When I enter the education/degree detail data 
+	|University | degreeName |
+	| Uni USQ | BioMed |
 
 
 	#Testcases

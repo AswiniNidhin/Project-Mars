@@ -1,5 +1,4 @@
-﻿using System;
-using System.Threading;
+﻿using System.Threading;
 using TechTalk.SpecFlow;
 using TestProjectMar.PagesObjects;
 
@@ -8,8 +7,8 @@ namespace TestProjectMar.Steps
     [Binding]
     public class LoginSteps
     {
-        Login LoginObj;
-       
+        private readonly Login LoginObj;
+
 
         public LoginSteps()
         {
@@ -22,24 +21,24 @@ namespace TestProjectMar.Steps
             LoginObj.NavigatetoUrl();
             Thread.Sleep(1000);
         }
-        
+
         [Given(@"I enter email and password")]
         public void GivenIEnterEmailAndPassword()
         {
             LoginObj.SignIn();
-            LoginObj.EnterEmailPassword();
+            LoginObj.LoginEnterEmailPassword();
         }
-        
+
         [Given(@"I click login")]
         public void GivenIClickLogin()
         {
             LoginObj.ProfilepageLoggedIn();
         }
-        
+
         [Then(@"I able enter Profie page")]
         public void ThenIAbleEnterProfiePage()
         {
-            
+
         }
     }
 }

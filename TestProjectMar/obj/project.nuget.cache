@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "q9iLjCiG0LQm8Xg/4yzwQCZen2UMcQmfB3ILXpuoUTqK4pT1/ND41UiQRnS0YohLtrP9z1QRpux+hc2dQ8Sahg==",
+  "dgSpecHash": "YiXdFS0FpQC/SGuVjOmr4vaIFJy1d0AKQSwaB3AlvPOIFttYBZi3rUFdSYp4vN3tKzaI95rx+jLhKIeMdGu5Kw==",
   "success": true,
   "projectFilePath": "C:\\Users\\aswin\\Desktop\\Projects\\TestProjectMar\\TestProjectMar\\TestProjectMar.csproj",
   "expectedPackageFiles": [
@@ -8,9 +8,12 @@
     "C:\\Users\\aswin\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\aswin\\.nuget\\packages\\cucumber.messages\\6.0.1\\cucumber.messages.6.0.1.nupkg.sha512",
     "C:\\Users\\aswin\\.nuget\\packages\\docker.dotnet\\3.125.4\\docker.dotnet.3.125.4.nupkg.sha512",
+    "C:\\Users\\aswin\\.nuget\\packages\\dotnetseleniumextras.waithelpers\\3.11.0\\dotnetseleniumextras.waithelpers.3.11.0.nupkg.sha512",
+    "C:\\Users\\aswin\\.nuget\\packages\\dynamitey\\2.0.9.136\\dynamitey.2.0.9.136.nupkg.sha512",
     "C:\\Users\\aswin\\.nuget\\packages\\gherkin\\19.0.3\\gherkin.19.0.3.nupkg.sha512",
     "C:\\Users\\aswin\\.nuget\\packages\\google.protobuf\\3.7.0\\google.protobuf.3.7.0.nupkg.sha512",
     "C:\\Users\\aswin\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",
+    "C:\\Users\\aswin\\.nuget\\packages\\microsoft.csharp\\4.4.1\\microsoft.csharp.4.4.1.nupkg.sha512",
     "C:\\Users\\aswin\\.nuget\\packages\\microsoft.dotnet.internalabstractions\\1.0.0\\microsoft.dotnet.internalabstractions.1.0.0.nupkg.sha512",
     "C:\\Users\\aswin\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\1.0.3\\microsoft.dotnet.platformabstractions.1.0.3.nupkg.sha512",
     "C:\\Users\\aswin\\.nuget\\packages\\microsoft.extensions.dependencymodel\\1.0.3\\microsoft.extensions.dependencymodel.1.0.3.nupkg.sha512",
@@ -45,6 +48,7 @@
     "C:\\Users\\aswin\\.nuget\\packages\\selenium.webdriver\\3.141.0\\selenium.webdriver.3.141.0.nupkg.sha512",
     "C:\\Users\\aswin\\.nuget\\packages\\selenium.webdriver.chromedriver\\91.0.4472.10100\\selenium.webdriver.chromedriver.91.0.4472.10100.nupkg.sha512",
     "C:\\Users\\aswin\\.nuget\\packages\\specflow\\3.9.8\\specflow.3.9.8.nupkg.sha512",
+    "C:\\Users\\aswin\\.nuget\\packages\\specflow.assist.dynamic\\1.4.2\\specflow.assist.dynamic.1.4.2.nupkg.sha512",
     "C:\\Users\\aswin\\.nuget\\packages\\specflow.internal.json\\1.0.8\\specflow.internal.json.1.0.8.nupkg.sha512",
     "C:\\Users\\aswin\\.nuget\\packages\\specflow.nunit\\3.9.8\\specflow.nunit.3.9.8.nupkg.sha512",
     "C:\\Users\\aswin\\.nuget\\packages\\specflow.tools.msbuild.generation\\3.9.8\\specflow.tools.msbuild.generation.3.9.8.nupkg.sha512",

@@ -18,6 +18,7 @@ namespace TestProjectMar.Hooks
         {
             driver = new ChromeDriver();
             driver.Manage().Window.Maximize();
+           
         }
 
         [AfterScenario]

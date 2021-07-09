@@ -5,12 +5,13 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading;
 using TestProjectMar.Hooks;
+using TestProjectMar.Utilities;
 
 namespace TestProjectMar.PagesObjects
 {
     class EducationPage
     {
-        IWebDriver driver;
+         IWebDriver driver;
         
 
         //Education elements
@@ -33,35 +34,35 @@ namespace TestProjectMar.PagesObjects
 
         public void EduTabAddNewButton()
         {
-            
-            Thread.Sleep(1000);
+
+            Wait.WaitForElementToBePresent(driver, "LinkText", "Education", 2);
             Educationtab.Click();
             Thread.Sleep(1000);
             EducationtAddnewBtn.Click();
         }
-        public void EnterEduData()
+        public void EnterEduData(string University, string degreeName)
 
         {
-            Thread.Sleep(1000);
-            UniName.SendKeys("Uni USQ");
+            Wait.WaitForElementToBePresent(driver, "Xpath", "//input[@name='instituteName", 2);
+            UniName.SendKeys(University);
 
-            Thread.Sleep(3000);
+            Wait.WaitForElementToBePresent(driver, "Xpath", "//select[@name='country']", 2);
             SelectElement SelectCountryUni= new SelectElement(SelectCountry);
             SelectCountryUni.SelectByText("Australia");
 
 
-            Thread.Sleep(3000);
+            Wait.WaitForElementToBePresent(driver, "Xpath", "//select[@name='title']", 2);
             SelectElement SelectDropdownTitle = new SelectElement(SelectTitle);
             SelectDropdownTitle.SelectByText("BFA");
 
-            Thread.Sleep(3000);
-            Degree.SendKeys("BioMed");
+            Wait.WaitForElementToBePresent(driver, "Xpath", "//input[@name='degree']", 2);
+            Degree.SendKeys(degreeName);
 
-            Thread.Sleep(3000);
+            Wait.WaitForElementToBePresent(driver, "Xpath", "//select[@name='yearOfGraduation']", 2);
             SelectElement SelectYearDropdown= new SelectElement(Year);
             SelectYearDropdown.SelectByText("2020");
 
-            Thread.Sleep(1000);
+            Wait.WaitForElementToBePresent(driver, "Xpath", "//div[@class='sixteen wide field']/input[1]", 2);
             AddEduData.Click();
         }
 

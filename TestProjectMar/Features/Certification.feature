@@ -3,9 +3,11 @@
 
 
 	Scenario: Entering valid data to certification tab
-	Given I have navigated to profile page
-	And I click on certification tab and addnew button
-	And I add certification data 
+	Given I have navigated to profile to page
+	Given I click on certification tab and addnew button
+	Then I add certification detail data 
+	| Certificate     | CertifiedFrom       |
+	| Whitehate Award | WhiteHate community |
 	
 
 	

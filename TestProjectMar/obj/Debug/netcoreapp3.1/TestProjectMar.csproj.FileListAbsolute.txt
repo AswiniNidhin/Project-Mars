@@ -15,6 +15,7 @@ C:\Users\aswin\Desktop\Projects\TestProjectMar\TestProjectMar\bin\Debug\netcorea
 C:\Users\aswin\Desktop\Projects\TestProjectMar\TestProjectMar\bin\Debug\netcoreapp3.1\BoDi.dll
 C:\Users\aswin\Desktop\Projects\TestProjectMar\TestProjectMar\bin\Debug\netcoreapp3.1\Cucumber.Messages.dll
 C:\Users\aswin\Desktop\Projects\TestProjectMar\TestProjectMar\bin\Debug\netcoreapp3.1\Docker.DotNet.dll
+C:\Users\aswin\Desktop\Projects\TestProjectMar\TestProjectMar\bin\Debug\netcoreapp3.1\Dynamitey.dll
 C:\Users\aswin\Desktop\Projects\TestProjectMar\TestProjectMar\bin\Debug\netcoreapp3.1\Gherkin.dll
 C:\Users\aswin\Desktop\Projects\TestProjectMar\TestProjectMar\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
 C:\Users\aswin\Desktop\Projects\TestProjectMar\TestProjectMar\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.CodeCoverage.Shim.dll
@@ -33,6 +34,7 @@ C:\Users\aswin\Desktop\Projects\TestProjectMar\TestProjectMar\bin\Debug\netcorea
 C:\Users\aswin\Desktop\Projects\TestProjectMar\TestProjectMar\bin\Debug\netcoreapp3.1\WebDriver.Support.dll
 C:\Users\aswin\Desktop\Projects\TestProjectMar\TestProjectMar\bin\Debug\netcoreapp3.1\WebDriver.dll
 C:\Users\aswin\Desktop\Projects\TestProjectMar\TestProjectMar\bin\Debug\netcoreapp3.1\TechTalk.SpecFlow.dll
+C:\Users\aswin\Desktop\Projects\TestProjectMar\TestProjectMar\bin\Debug\netcoreapp3.1\SpecFlow.Assist.Dynamic.dll
 C:\Users\aswin\Desktop\Projects\TestProjectMar\TestProjectMar\bin\Debug\netcoreapp3.1\SpecFlow.Internal.Json.dll
 C:\Users\aswin\Desktop\Projects\TestProjectMar\TestProjectMar\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
 C:\Users\aswin\Desktop\Projects\TestProjectMar\TestProjectMar\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
@@ -104,7 +106,6 @@ C:\Users\aswin\Desktop\Projects\TestProjectMar\TestProjectMar\bin\Debug\netcorea
 C:\Users\aswin\Desktop\Projects\TestProjectMar\TestProjectMar\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 C:\Users\aswin\Desktop\Projects\TestProjectMar\TestProjectMar\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
 C:\Users\aswin\Desktop\Projects\TestProjectMar\TestProjectMar\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\aswin\Desktop\Projects\TestProjectMar\TestProjectMar\obj\Debug\netcoreapp3.1\TestProjectMar.csproj.AssemblyReference.cache
 C:\Users\aswin\Desktop\Projects\TestProjectMar\TestProjectMar\obj\Debug\netcoreapp3.1\TestProjectMar.AssemblyInfoInputs.cache
 C:\Users\aswin\Desktop\Projects\TestProjectMar\TestProjectMar\obj\Debug\netcoreapp3.1\TestProjectMar.AssemblyInfo.cs
 C:\Users\aswin\Desktop\Projects\TestProjectMar\TestProjectMar\obj\Debug\netcoreapp3.1\TestProjectMar.csproj.CoreCompileInputs.cache
@@ -112,3 +113,5 @@ C:\Users\aswin\Desktop\Projects\TestProjectMar\TestProjectMar\obj\Debug\netcorea
 C:\Users\aswin\Desktop\Projects\TestProjectMar\TestProjectMar\obj\Debug\netcoreapp3.1\TestProjectMar.dll
 C:\Users\aswin\Desktop\Projects\TestProjectMar\TestProjectMar\obj\Debug\netcoreapp3.1\TestProjectMar.pdb
 C:\Users\aswin\Desktop\Projects\TestProjectMar\TestProjectMar\obj\Debug\netcoreapp3.1\TestProjectMar.genruntimeconfig.cache
+C:\Users\aswin\Desktop\Projects\TestProjectMar\TestProjectMar\obj\Debug\netcoreapp3.1\TestProjectMar.csproj.AssemblyReference.cache
+C:\Users\aswin\Desktop\Projects\TestProjectMar\TestProjectMar\bin\Debug\netcoreapp3.1\SeleniumExtras.WaitHelpers.dll

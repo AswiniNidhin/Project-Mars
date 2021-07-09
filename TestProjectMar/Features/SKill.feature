@@ -3,13 +3,19 @@
 
 
 @regression
-Scenario: Entering valid data to skill tab
-	Given I have navigated to profile page
+Scenario Outline: Entering valid data to skill tab
+	Given I have navigated to profile to page
 	And I click on the skills tab 
-	When I enter the skill text 
-	#And I click skill add button
+	When I enter the profile skill text
+	| text    |
+	| English |
 	Then I should see a popup saying skill addded
 
+
+
+
+
+#----------------------------------------------------------------------------------------
 	#Testcases
 	#Scenario:  Updating data From skill tab
 	#Scenario: Deleting data from skill tab
@@ -23,9 +29,9 @@ Scenario: Entering valid data to skill tab
 	#Scenario: I us a Seller able delete profile photo
 
 	
-#Scenario: Entering valid date to language tab
-#Scenario: Update data in language 
-#Scenario: Delete data in language tab
+	#Scenario: Entering valid date to language tab
+	#Scenario: Update data in language 
+	#Scenario: Delete data in language tab
 
 
 
