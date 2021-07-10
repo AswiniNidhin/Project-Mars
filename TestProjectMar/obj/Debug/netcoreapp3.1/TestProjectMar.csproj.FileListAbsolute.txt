@@ -115,3 +115,5 @@ C:\Users\aswin\Desktop\Projects\TestProjectMar\TestProjectMar\obj\Debug\netcorea
 C:\Users\aswin\Desktop\Projects\TestProjectMar\TestProjectMar\obj\Debug\netcoreapp3.1\TestProjectMar.genruntimeconfig.cache
 C:\Users\aswin\Desktop\Projects\TestProjectMar\TestProjectMar\obj\Debug\netcoreapp3.1\TestProjectMar.csproj.AssemblyReference.cache
 C:\Users\aswin\Desktop\Projects\TestProjectMar\TestProjectMar\bin\Debug\netcoreapp3.1\SeleniumExtras.WaitHelpers.dll
+C:\Users\aswin\Desktop\Projects\TestProjectMar\TestProjectMar\bin\Debug\netcoreapp3.1\ExcelDataReader.dll
+C:\Users\aswin\Desktop\Projects\TestProjectMar\TestProjectMar\bin\Debug\netcoreapp3.1\ExcelDataReader.DataSet.dll

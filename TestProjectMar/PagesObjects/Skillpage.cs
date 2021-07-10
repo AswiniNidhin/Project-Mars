@@ -51,7 +51,8 @@ namespace TestProjectMar.PagesObjects
             
         }
 
-        public void EnterEmailPassword()
+        public void EnterEmailPassword(string username ,string password) 
+
 
 
         {
@@ -59,11 +60,13 @@ namespace TestProjectMar.PagesObjects
             
             ProfileEmail.Click();
             ProfileEmail.Clear();
-            ProfileEmail.SendKeys("aswini.sanal@outlook.com");
+            ProfileEmail.SendKeys(username);
             Wait.WaitForElementToBePresent(driver, "XPath", "//input[@name='email']", 3);
             ProfilePassword.Click();
             ProfilePassword.Clear();
-            ProfilePassword.SendKeys("Testing0123*");
+            Wait.WaitForElementToBePresent(driver, "XPath", "//input[@name='password']", 3);
+            ProfilePassword.SendKeys(password);
+
 
         }
 
@@ -71,8 +74,9 @@ namespace TestProjectMar.PagesObjects
         {
 
             // rememberme.Click();
-            Thread.Sleep(500);
+            Wait.WaitForElementToBePresent(driver, "Xpath", "//button[contains(text(),'Login')]", 3);
             Submit.Click();
+            Thread.Sleep(1000);
 
 
 
@@ -81,7 +85,7 @@ namespace TestProjectMar.PagesObjects
 
         public void ClickSkilladd()
         {
-            Wait.WaitForElementToBePresent(driver, "LinkText", "Skills", 3);
+            Wait.WaitForElementToBePresent(driver, "LinkText", "Skills", 4);
             Skilltab.Click();
             Thread.Sleep(1000);
             Skilladdnewbutton.Click();

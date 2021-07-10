@@ -101,20 +101,26 @@ namespace TestProjectMar.Features
             else
             {
                 this.ScenarioStart();
+                TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
+                            "username",
+                            "password"});
+                table1.AddRow(new string[] {
+                            "aswini.sanal@outlook.com",
+                            "Testing0123*"});
 #line 6
- testRunner.Given("I have navigated to profile to page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I have navigated to login profile to page", ((string)(null)), table1, "Given ");
 #line hidden
-#line 7
+#line 9
  testRunner.Given("I click on certification tab and addnew button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-                TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table2 = new TechTalk.SpecFlow.Table(new string[] {
                             "Certificate",
                             "CertifiedFrom"});
-                table1.AddRow(new string[] {
+                table2.AddRow(new string[] {
                             "Whitehate Award",
                             "WhiteHate community"});
-#line 8
- testRunner.Then("I add certification detail data", ((string)(null)), table1, "Then ");
+#line 10
+ testRunner.Then("I add certification detail data", ((string)(null)), table2, "Then ");
 #line hidden
             }
             this.ScenarioCleanup();

@@ -3,7 +3,9 @@
 
 
 	Scenario: Entering valid data to certification tab
-	Given I have navigated to profile to page
+	Given I have navigated to login profile to page
+	| username                  | password     |
+	| aswini.sanal@outlook.com | Testing0123* |
 	Given I click on certification tab and addnew button
 	Then I add certification detail data 
 	| Certificate     | CertifiedFrom       |

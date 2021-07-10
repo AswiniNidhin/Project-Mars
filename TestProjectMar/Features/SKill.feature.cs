@@ -102,20 +102,26 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
+                TechTalk.SpecFlow.Table table6 = new TechTalk.SpecFlow.Table(new string[] {
+                            "username",
+                            "password"});
+                table6.AddRow(new string[] {
+                            "aswini.sanal@outlook.com",
+                            "Testing0123*"});
 #line 7
- testRunner.Given("I have navigated to profile to page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I have navigated to login profile to page", ((string)(null)), table6, "Given ");
 #line hidden
-#line 8
+#line 10
  testRunner.And("I click on the skills tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-                TechTalk.SpecFlow.Table table3 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table7 = new TechTalk.SpecFlow.Table(new string[] {
                             "text"});
-                table3.AddRow(new string[] {
+                table7.AddRow(new string[] {
                             "English"});
-#line 9
- testRunner.When("I enter the profile skill text", ((string)(null)), table3, "When ");
+#line 11
+ testRunner.When("I enter the profile skill text", ((string)(null)), table7, "When ");
 #line hidden
-#line 12
+#line 14
  testRunner.Then("I should see a popup saying skill addded", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }

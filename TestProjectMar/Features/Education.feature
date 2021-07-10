@@ -3,7 +3,9 @@
 
 
 	Scenario: Entering valid data to education tab
-	Given I have navigated to profile to page
+	Given I have navigated to login profile to page
+	| username                  | password     |
+	| aswini.sanal@outlook.com | Testing0123* |
 	And I click on the education tab 
 	When I enter the education/degree detail data 
 	|University | degreeName |

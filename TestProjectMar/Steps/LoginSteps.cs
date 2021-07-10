@@ -1,5 +1,6 @@
 ﻿using System.Threading;
 using TechTalk.SpecFlow;
+using TechTalk.SpecFlow.Assist;
 using TestProjectMar.PagesObjects;
 
 namespace TestProjectMar.Steps
@@ -22,12 +23,16 @@ namespace TestProjectMar.Steps
             Thread.Sleep(1000);
         }
 
-        [Given(@"I enter email and password")]
-        public void GivenIEnterEmailAndPassword()
+        [Given(@"I have navigated to login to page")]
+        public void GivenIHaveNavigatedToLoginToPage(Table table)
         {
             LoginObj.SignIn();
-            LoginObj.LoginEnterEmailPassword();
+            dynamic data = table.CreateDynamicInstance();
+            LoginObj.LoginEnterEmailPassword((string)data.username, (string)data.password);
+
         }
+
+
 
         [Given(@"I click login")]
         public void GivenIClickLogin()

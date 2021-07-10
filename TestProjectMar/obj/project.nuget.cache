@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "YiXdFS0FpQC/SGuVjOmr4vaIFJy1d0AKQSwaB3AlvPOIFttYBZi3rUFdSYp4vN3tKzaI95rx+jLhKIeMdGu5Kw==",
+  "dgSpecHash": "nSy+MEiKkuU4wYUo3SKftEtjOCuZZUYatEUrSl3GfZ1qPgE6Zl7tlhEToRjPZx614gWawcZGdxxUgAHc5QzDNg==",
   "success": true,
   "projectFilePath": "C:\\Users\\aswin\\Desktop\\Projects\\TestProjectMar\\TestProjectMar\\TestProjectMar.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,8 @@
     "C:\\Users\\aswin\\.nuget\\packages\\docker.dotnet\\3.125.4\\docker.dotnet.3.125.4.nupkg.sha512",
     "C:\\Users\\aswin\\.nuget\\packages\\dotnetseleniumextras.waithelpers\\3.11.0\\dotnetseleniumextras.waithelpers.3.11.0.nupkg.sha512",
     "C:\\Users\\aswin\\.nuget\\packages\\dynamitey\\2.0.9.136\\dynamitey.2.0.9.136.nupkg.sha512",
+    "C:\\Users\\aswin\\.nuget\\packages\\exceldatareader\\3.6.0\\exceldatareader.3.6.0.nupkg.sha512",
+    "C:\\Users\\aswin\\.nuget\\packages\\exceldatareader.dataset\\3.6.0\\exceldatareader.dataset.3.6.0.nupkg.sha512",
     "C:\\Users\\aswin\\.nuget\\packages\\gherkin\\19.0.3\\gherkin.19.0.3.nupkg.sha512",
     "C:\\Users\\aswin\\.nuget\\packages\\google.protobuf\\3.7.0\\google.protobuf.3.7.0.nupkg.sha512",
     "C:\\Users\\aswin\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",

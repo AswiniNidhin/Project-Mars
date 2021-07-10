@@ -16,14 +16,19 @@ namespace TestProjectMar.Steps
             Skillobj = new Skillpage();
         }
 
-        [Given(@"I have navigated to profile to page")]
-        public void GivenIHaveNavigatedToProfileToPage()
+        [Given(@"I have navigated to login profile to page")]
+        public void GivenIHaveNavigatedToLoginProfileToPage(Table table)
         {
             Skillobj.NavigatetoUrl();
             Skillobj.SignIn();
-            Skillobj.EnterEmailPassword();
+            dynamic data = table.CreateDynamicInstance();
+            Skillobj.EnterEmailPassword((string)data.username, (string)data.password);
             Skillobj.ProfilepageLoggedIn();
         }
+
+
+
+
 
 
         //[Given(@"I have navigated to profile page")]
@@ -39,7 +44,7 @@ namespace TestProjectMar.Steps
         [Given(@"I click on the skills tab")]
         public void GivenIClickOnTheSkillsTab()
         {
-
+            
             Skillobj.ClickSkilladd();
 
         }

@@ -4,7 +4,9 @@
 
 @regression
 Scenario Outline: Entering valid data to skill tab
-	Given I have navigated to profile to page
+	Given I have navigated to login profile to page
+	| username                  | password     |
+	| aswini.sanal@outlook.com | Testing0123* |
 	And I click on the skills tab 
 	When I enter the profile skill text
 	| text    |

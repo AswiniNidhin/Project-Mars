@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using MarsQA_1.Helpers;
+using NUnit.Framework;
 using OpenQA.Selenium;
 using System;
 using System.Collections.Generic;
@@ -27,17 +28,19 @@ namespace TestProjectMar.PagesObjects
 
         }
 
-        public void LoginEnterEmailPassword()
+        public void LoginEnterEmailPassword(string username, string password)
         {
             
-            Thread.Sleep(1000);
+           
             Email.Click();
             Email.Clear();
-            Email.SendKeys("aswini.sanal@outlook.com");
-            Thread.Sleep(4000);
+            Thread.Sleep(1000);
+            Email.SendKeys(username);
+           
             Password.Click();
             Password.Clear();
-            Password.SendKeys("Testing0123*");
+            Thread.Sleep(1000);
+            Password.SendKeys(password);
 
         }
 

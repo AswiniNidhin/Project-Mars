@@ -9,6 +9,8 @@
   <ItemGroup>
     <PackageReference Include="Docker.DotNet" Version="3.125.4" />
     <PackageReference Include="DotNetSeleniumExtras.WaitHelpers" Version="3.11.0" />
+    <PackageReference Include="ExcelDataReader" Version="3.6.0" />
+    <PackageReference Include="ExcelDataReader.DataSet" Version="3.6.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.9.4" />
     <PackageReference Include="NUnit" Version="3.13.1" />
     <PackageReference Include="NUnit3TestAdapter" Version="3.17.0" />
@@ -20,10 +22,6 @@
     <PackageReference Include="SpecFlow.Assist.Dynamic" Version="1.4.2" />
     <PackageReference Include="SpecFlow.NUnit" Version="3.9.8" />
     <PackageReference Include="SpecFlow.Tools.MsBuild.Generation" Version="3.9.8" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="TestData\" />
   </ItemGroup>
 
 </Project>

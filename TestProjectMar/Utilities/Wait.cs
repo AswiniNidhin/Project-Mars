@@ -38,5 +38,44 @@ namespace TestProjectMar.Utilities
                 Assert.Fail("Test failed waiting for element to be present", ex.Message);
             }
             }
+    
+
+
+    public static void WaitForClickable(IWebDriver driver, string locator, string locatorValue, int seconds)
+
+
+    {
+        try
+        {
+            if (locator == "Id")
+            {
+                var Wait = new OpenQA.Selenium.Support.UI.WebDriverWait(driver, new TimeSpan(0, 0, seconds));
+                Wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementToBeClickable(By.Id(locatorValue)));
+            }
+
+            if (locator == "XPath")
+            {
+                var Wait = new OpenQA.Selenium.Support.UI.WebDriverWait(driver, new TimeSpan(0, 0, seconds));
+                Wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementToBeClickable(By.XPath(locatorValue)));
+            }
+
+            if (locator == "CssSelector")
+            {
+                var Wait = new OpenQA.Selenium.Support.UI.WebDriverWait(driver, new TimeSpan(0, 0, seconds));
+                Wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementToBeClickable(By.CssSelector(locatorValue)));
+            }
+
+            if (locator == "LinkText")
+            {
+                var Wait = new OpenQA.Selenium.Support.UI.WebDriverWait(driver, new TimeSpan(0, 0, seconds));
+                Wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementToBeClickable(By.LinkText(locatorValue)));
+            }
+        }
+        catch (Exception ex)
+        {
+            Assert.Fail("Test failed waiting for element to be present", ex.Message);
+        }
     }
 }
+}
+

@@ -105,13 +105,19 @@ this.ScenarioInitialize(scenarioInfo);
 #line 5
  testRunner.Given("I have the website", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
+                TechTalk.SpecFlow.Table table5 = new TechTalk.SpecFlow.Table(new string[] {
+                            "username",
+                            "password"});
+                table5.AddRow(new string[] {
+                            "aswini.sanal@outlook.com",
+                            "Testing0123*"});
 #line 6
- testRunner.And("I enter email and password", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("I have navigated to login to page", ((string)(null)), table5, "And ");
 #line hidden
-#line 7
+#line 9
  testRunner.And("I click login", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 8
+#line 10
  testRunner.Then("I able enter Profie page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }

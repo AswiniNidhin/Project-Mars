@@ -100,20 +100,26 @@ namespace TestProjectMar.Features
             else
             {
                 this.ScenarioStart();
+                TechTalk.SpecFlow.Table table3 = new TechTalk.SpecFlow.Table(new string[] {
+                            "username",
+                            "password"});
+                table3.AddRow(new string[] {
+                            "aswini.sanal@outlook.com",
+                            "Testing0123*"});
 #line 6
- testRunner.Given("I have navigated to profile to page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I have navigated to login profile to page", ((string)(null)), table3, "Given ");
 #line hidden
-#line 7
+#line 9
  testRunner.And("I click on the education tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-                TechTalk.SpecFlow.Table table2 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table4 = new TechTalk.SpecFlow.Table(new string[] {
                             "University",
                             "degreeName"});
-                table2.AddRow(new string[] {
+                table4.AddRow(new string[] {
                             "Uni USQ",
                             "BioMed"});
-#line 8
- testRunner.When("I enter the education/degree detail data", ((string)(null)), table2, "When ");
+#line 10
+ testRunner.When("I enter the education/degree detail data", ((string)(null)), table4, "When ");
 #line hidden
             }
             this.ScenarioCleanup();
